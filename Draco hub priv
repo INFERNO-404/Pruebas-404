@@ -45,7 +45,6 @@ local LocalPlayer = Players.LocalPlayer
 if not whitelist[LocalPlayer.Name] then
     LocalPlayer:Kick("No estas en la whitelist de Draco hub")
 end
-
 local Players = game:GetService("Players")
 local VirtualUser = game:GetService("VirtualUser")
 
