@@ -1,5 +1,5 @@
 local whitelist = {
-    [""] = true,
+    ["Mex_ej"] = true,
     ["] = true,
     [""] = true,
     [""] = true,
@@ -43,7 +43,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 if not whitelist[LocalPlayer.Name] then
-    LocalPlayer:Kick("No estas en la whitelist de Draco hub")
+    LocalPlayer:Kick("No estas en la whitelist de Draco hub🤡")
 end
 local Players = game:GetService("Players")
 local VirtualUser = game:GetService("VirtualUser")
